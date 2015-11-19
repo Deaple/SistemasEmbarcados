@@ -5,6 +5,7 @@
  *e exibinindo valores dos eixos do acelerometro
  *Created on: 15 de out de 2015
  *Author: Isaac
+ *Este arquivo não é utilizado na versão Release do software(pois nesta versão é gerada a biblioteca compartilhada)
  */
 
 //
