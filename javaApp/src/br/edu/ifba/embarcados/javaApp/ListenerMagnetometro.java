@@ -2,6 +2,7 @@ package br.edu.ifba.embarcados.javaApp;
 
 import br.edu.ifba.embarcados.javaApp.asincexec.IListenerMagnetometro;
 
+// FIXME seria a classe grafica (de exibicao da bussola) que deveria implementar o listener
 public class ListenerMagnetometro implements IListenerMagnetometro{
 	
 	@Override
