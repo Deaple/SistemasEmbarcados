@@ -7,7 +7,7 @@ import br.edu.ifba.embarcados.javaApp.conector.FabricaConectores;
 import br.edu.ifba.embarcados.javaApp.conector.IComunicacaoSensores;
 
 public class AsincExec implements Runnable {
-	//Método com interface runnable
+	//MÃ©todo com interface runnable
 	private String porta;
 	private boolean continuar;
 	Animacao anim = new Animacao();
@@ -59,6 +59,7 @@ public class AsincExec implements Runnable {
 				System.out.println("Valor acima de 360! graus = "+graus);
 			}	
 			else{
+				// FIXME a tela de animacao deveria implementar o listener!!!
 				listener.notificarMovimentoMag(graus);
 				System.out.println(listener.notificaDirecao(graus));
 				anim.executar(graus);
