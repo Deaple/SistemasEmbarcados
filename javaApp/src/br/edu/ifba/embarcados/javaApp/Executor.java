@@ -16,6 +16,8 @@ public class Executor{
 		
 		for(int i=0;i<5000;i++)
 			Thread.sleep(500);
+			
+		// FIXME faltou o asinc.setContinuar(false) para parar a thread
 		
 		t1.join();
 	}
